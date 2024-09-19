@@ -23,5 +23,7 @@ public class Main
         Feeder i = new Feeder(100);
         i.simulateOneDay(5);
         System.out.println(i);
-    }
+        Feeder j= new Feeder(29);
+        j.simulateManyDays(random, random);
+        System.out.println(days);
 }
