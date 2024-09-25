@@ -23,6 +23,9 @@ public class Main
         Feeder i = new Feeder(100);
         i.simulateOneDay(5);
         System.out.println(i);
+        Feeder a = new Feeder(2400);
+        a.simulateManyDays(10,4);
+        System.out.println(a);
         Feeder j= new Feeder(250);
         j.simulateManyDays(10, 5);
         System.out.println(j);
